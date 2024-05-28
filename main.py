@@ -1,9 +1,22 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """Test cities access from a state"""
 from models import storage
 from models.state import State
 from models.city import City
 """Objects creations"""
+=======
+"""
+ Test cities access from a state
+"""
+from models import storage
+from models.state import State
+from models.city import City
+
+"""
+ Objects creations
+"""
+>>>>>>> c498d92c4d55add0dbea5dfea46a43cbc7c8f45d
 state_1 = State(name="California")
 print("New state: {}".format(state_1))
 state_1.save()

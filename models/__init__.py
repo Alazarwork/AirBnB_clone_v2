@@ -3,6 +3,10 @@
 
 from os import getenv
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c498d92c4d55add0dbea5dfea46a43cbc7c8f45d
 storage_t = getenv("HBNB_TYPE_STORAGE")
 
 if storage_t == "db":
